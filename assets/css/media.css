@@ -1,0 +1,43 @@
+/*Extra small devices (portrait phones, less than 576px) */
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: .55rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+  html {
+    font-size: .8rem
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 1rem
+  }
+}
+
+/* social icon */
+
+@media only screen and (max-width: 576px) {
+  .social-links a  {
+    font-size: 18px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 200px;
+    line-height: 11px;
+    text-decoration: none;
+    padding:.5vw
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #posts .post { width: 100%;}
+  }
